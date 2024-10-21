@@ -1,177 +1,675 @@
 <!DOCTYPE html>
-<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
-<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="format-detection" content="telephone=no">
-	<title>NullPointer</title>
-	<link rel="stylesheet" href="css/fancySelect.css" />
-	<link rel="stylesheet" href="css/uniform.css" />
-	<link rel="stylesheet" href="css/all.css" />
-	<link media="screen" rel="stylesheet" type="text/css" href="css/screen.css" />
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <meta charset="utf-8">
+  <title>NullPointer</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/logo.jpg" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Reveal
+    Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>
-<body>
-	<div id="wrapper">
-		<div class="wrapper-holder">
-			<header id="header">
-				<span class="logo"><a href="index.html">NullPointer</a></span>
-				<!-- <ul class="tools-nav tools-nav-mobile">
-					<li class="items"><a href="cart.html"><span>2</span> Items, <strong>$599.00</strong></a></li>
-					<li class="login"><a href="#">Login</a> / <a href="#">register</a></li> -->
-				</ul>
-				<div class="bar-holder">
-				<a class="menu_trigger" href="#">menu</a>
-					<nav id="nav">
-						<ul>
-							<li><a href="https://github.com/NullPointer-Network">github</a></li>
-							<li><a href="https://app.asana.com/0/1202317264489751/1202317266852849">project</a></li>
-							<li><a href="https://www.ed.ac.uk/">org</a></li>
-						</ul>
-					</nav>
-					<!-- <ul class="tools-nav">
-						<li class="items"><a href="cart.html"><span>2</span> Items, <strong>$599.00</strong></a></li>
-						<li class="login"><a href="#">Login</a> / <a href="#">register</a></li> -->
-					</ul>
-				</div>
-			</header>
-			<section class="promo">
-				<ul class="slider">
-					<li style="background: url(images/fig-luz.png) no-repeat 50% 50%;">
-						<div class="slide-holder">
-							<div class="slide-info">
-								<h1>luz</h1>
-								<p>The founder of the team. Profession in Python, Java, C, C++, Haskell, MIPS -- almost all the programming languages!!</p>
-								<a class="btn white big" href="https://github.com/Zheng-Lu">See github</a>
-							</div>
-						</div>
-					</li>
-					<li style="background: url(images/fig-ray.png) no-repeat 50% 50%;">
-						<div class="slide-holder">
-							<div class="slide-info">
-								<h1>ray</h1>
-								<p>Some tankerman.</p>
-								<a class="btn white big" href="https://github.com/SanBingYouYong">See github</a>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</section>
-			<section id="main">
-				<div class="boxes">
-					<div class="box">
-						<a href="#">
-							<span class="bg"></span>
-							<img src="images/img-01.jpg" alt="" />
-							<div class="box-info">
-								<div class="box-info-holder">
-									<span class="title"><span>Other</span></span>
-									<h2>random stuff</h2>
-									<span class="btn white normal">More</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<a href="#">
-							<span class="bg"></span>
-							<img src="images/img-02.jpg" alt="" />
-							<div class="box-info">
-								<div class="box-info-holder">
-									<span class="title"><span>Other</span></span>
-									<h2>random stuff</h2>
-									<span class="btn white normal">More</span>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<a href="#">
-							<span class="bg"></span>
-							<img src="images/img-03.jpg" alt="" />
-							<div class="box-info">
-								<div class="box-info-holder">
-									<span class="title"><span>Other</span></span>
-									<h2>random stuff</h2>
-									<span class="btn white normal">More</span>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="block-advice">
-					<div class="advice-holder">
-						<h2>Newsletter</h2>
-						<p>Join to receive promotions and other good news.</p>
-					</div>
-					<form action="#" class="form-newsletter">
-						<fieldset>
-							<input type="text" placeholder="Your email..." />
-							<input class="btn black normal" type="submit" value="Subscribe" />
-						</fieldset>
-					</form>
-				</div>
-			</section>
-		</div>
-		<footer id="footer">
-			<div class="footer-holder">
-				<div class="footer-frame">
-					<div class="footer-content">
-						<div class="col-holder">
-							<div class="col">
-								<div class="heading">
-									<h3>About us</h3>
-								</div>
-								<p>NullPointer Network</p>
-								<p>University of Edinburgh</p>
-							</div>
-							<div class="col">
-								<div class="heading">
-									<h3>Contact</h3>
-								</div>
-								<address>
-									<p><strong>Meadow court</strong></p>
-									<p>Edinburhg, </p>
-									<p>United Kingdom</p>
-								</address>
-								<address>
-									<p>(44) xxxxxxxxxx</p>
-									<p><a href="z.lu-38@sms.ed.ac.uk">z.lu-38@sms.ed.ac.uk</a></p>
-								</address>
-							</div>
-							<div class="col col-contact">
-								<div class="heading">
-									<h3>Follow us</h3>
-								</div>
-								<ul class="social">
-									<li class="facebook"><a href="#">Facebook</a></li>
-									<li class="google"><a href="#">Google+</a></li>
-									<li class="twitter"><a href="#">Twitter</a></li>
-									<li class="pinterest"><a href="#">Pinterest</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="footer-bottom">
-						<div class="holder">
-							<p>Copyright 2020 NullPointer-Network. All rights reserved.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>	
-	</div>
-	
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-	<script type="text/javascript" src="js/jquery.placeholder.js"></script>
-	<script type="text/javascript" src="js/jquery.uniform.min.js"></script>
-	<script type="text/javascript" src="js/fancySelect.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+
+<body id="body">
+
+  <!--==========================
+    Top Bar
+  ============================-->
+  <section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="contact-info float-left">
+        <i class="fa fa-envelope-o"></i> <a href="mailto:nullpointernetwork@gmail.com">nullpointernetwork@gmail.com</a>
+        <i class="fa fa-phone"></i> +44 7521 111111
+      </div>
+      <div class="social-links float-right">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#body" class="scrollto">Null<span>Pointer</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#body">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li class="menu-has-children"><a href="#projects">Projects</a>
+            <ul>
+              <li><a href="receipt.html">Receipt Recognition</a></li>
+              <li><a href="ongoing.html">Ongoing</a></li>
+              <li><a href="ongoing.html">Ongoing</a></li>
+              <li><a href="ongoing.html">Ongoing</a></li>
+            </ul>
+          </li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <!-- <li class="menu-has-children"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+
+    <div class="intro-content">
+      <h2>极目远眺，路向前方<br>always point towards your target</h2>
+      <!-- <h2>极目远眺，路<span>向</span>前方<br>always point towards your target</h2> -->
+      <div>
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="#portfolio" class="btn-projects scrollto">Our Projects</a>
+      </div>
+    </div>
+
+    <div id="intro-carousel" class="owl-carousel" >
+      <!-- <div class="item" style="background-image: url('img/intro-carousel/t2.jpg');"></div> -->
+      <!-- <div class="item" style="background-image: url('img/intro-carousel/ed2.jpg');"></div> -->
+    </div>
+
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 about-img">
+            <img src="img/ed1.jpg" alt="">
+          </div>
+
+          <div class="col-lg-6 content">
+            <h2>Based in Edinburgh, our team is dedicated to make the world a better place!</h2>
+            <h3>We are currently studying, brain-storming and working in these areas: </h3>
+
+            <ul>
+              <li><i class="ion-android-checkmark-circle"></i> Natural Language Processing</li>
+              <li><i class="ion-android-checkmark-circle"></i> Computer Vision</li>
+              <li><i class="ion-android-checkmark-circle"></i> Maybe some tanks</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Projects Section
+    ============================-->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>Projects</h2>
+          <p>Here are our ongoing projects: </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="fa fa-picture-o"></i></div>
+              <h4 class="title"><a href="receipt.html">Receipt Recognition</a></h4>
+              <p class="description">Receipt recognition technique to make splitting bills between friends much easier.</br>Ongoing project...</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Ongoing</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="">Ongoing</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-map"></i></div>
+              <h4 class="title"><a href="">Ongoing</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #projects -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="clients" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Clients</h2>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        </div>
+
+        <div class="owl-carousel clients-carousel">
+          <img src="img/clients/client-1.png" alt="">
+          <img src="img/clients/client-2.png" alt="">
+          <img src="img/clients/client-3.png" alt="">
+          <img src="img/clients/client-4.png" alt="">
+          <img src="img/clients/client-5.png" alt="">
+          <img src="img/clients/client-6.png" alt="">
+          <img src="img/clients/client-7.png" alt="">
+          <img src="img/clients/client-8.png" alt="">
+        </div>
+
+      </div>
+    </section><!-- #clients -->
+
+    <!--==========================
+      Our Portfolio Section
+    ============================-->
+    <section id="portfolio" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Portfolio</h2>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="img/portfolio/1.jpg" class="portfolio-popup">
+                <img src="img/portfolio/1.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">City</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="img/portfolio/2.jpg" class="portfolio-popup">
+                <img src="img/portfolio/2.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">History</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="img/portfolio/3.jpg" class="portfolio-popup">
+                <img src="img/portfolio/3.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Friends</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="img/portfolio/4.jpg" class="portfolio-popup">
+                <img src="img/portfolio/4.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Campus</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="img/portfolio/5.jpg" class="portfolio-popup">
+                <img src="img/portfolio/5.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Parks</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="img/portfolio/6.jpg" class="portfolio-popup">
+                <img src="img/portfolio/6.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Food</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="img/portfolio/7.jpg" class="portfolio-popup">
+                <img src="img/portfolio/7.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Streets</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="portfolio-item wow fadeInUp">
+              <a href="img/portfolio/8.jpg" class="portfolio-popup">
+                <img src="img/portfolio/8.jpg" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-info"><h2 class="wow fadeInUp">Life</h2></div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Testimonials Section
+    ============================-->
+    <section id="testimonials" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+        </div>
+        <div class="owl-carousel testimonials-carousel">
+
+            <div class="testimonial-item">
+              <p>
+                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+              </p>
+              <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+              <h3>Saul Goodman</h3>
+              <h4>Ceo &amp; Founder</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <p>
+                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+              </p>
+              <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <p>
+                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+              </p>
+              <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <p>
+                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+              </p>
+              <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <p>
+                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+              </p>
+              <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+            </div>
+
+        </div>
+
+      </div>
+    </section><!-- #testimonials -->
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Call To Action</h3>
+            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est new.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+      Our Team Section
+    ============================-->
+    <section id="team" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Team</h2>
+        </div>
+        <!-- <div class="row"> -->
+        <div class="owl-carousel team-carousel">
+          <div class="col-lg-12 col-md-12">
+            <div class="member">
+              <div class="pic"><img src="img/luz.png" alt=""></div>
+              <div class="details">
+                <h4>Zheng Lu</h4>
+                <span>Chief Executive Officer</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+            <div class="member">
+              <div class="pic"><img src="img/shuyuan.png" alt=""></div>
+              <div class="details">
+                <h4>Shuyuan Zhang</h4>
+                <span>CV Engineer</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href="https://www.linkedin.com/in/shuyuan-zhang-ray707/"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+            <div class="member">
+              <div class="pic"><img src="img/judy.png" alt=""></div>
+              <div class="details">
+                <h4>Judy Zhu</h4>
+                <span>Frontend Engineer</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+            <div class="member">
+              <div class="pic"><img src="img/zhou.png" alt=""></div>
+              <div class="details">
+                <h4>Varian Zhou</h4>
+                <span>NLP Engineer</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+            <div class="member">
+              <div class="pic"><img src="img/lawrence.png" alt=""></div>
+              <div class="details">
+                <h4>Lawrence Zhu</h4>
+                <span>Product Manager</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+            <div class="member">
+              <div class="pic"><img src="img/duan.png" alt=""></div>
+              <div class="details">
+                <h4>Kavin Duan</h4>
+                <span>Software Engineer</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+            <div class="member">
+              <div class="pic"><img src="img/gsk.png" alt=""></div>
+              <div class="details">
+                <h4>Shikai Geng</h4>
+                <span>Technology Consultant</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 col-md-12">
+            <div class="member">
+              <div class="pic"><img src="img/shu.png" alt=""></div>
+              <div class="details">
+                <h4>Shu Gu</h4>
+                <span>Full-Stack Engineer</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p></p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>Appleton Tower, The University of Edinburgh, Crichton Street, Newington, Edinburgh</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+447521111111">+44 7521 111111</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:nullpointernetwork@gmail.com">nullpointernetwork@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div> -->
+
+      <div class="container">
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Reveal</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
+        -->
+        <a href="https://bootstrapmade.com/">Free Bootstrap Templates</a> by BootstrapMade
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/sticky/sticky.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
 </html>
